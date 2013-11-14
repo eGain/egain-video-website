@@ -1,6 +1,11 @@
 /* override */
 a {
+  color: #2dbaa6;
   text-decoration: none;
+}
+a:hover{
+  color: #27a896;
+  text-decoration: underline;
 }
 
 nav.large a, nav.large li {
@@ -56,6 +61,20 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Cabin Condensed';
 }
 
+#videos img{
+  padding-bottom: 10px;
+}
+
+#videos .grid2 div{
+  padding-top: 0 !important;
+}
+
+
+footer{
+  padding: 20px;
+  background: url('/xtyle/img/bottomgradient.png') repeat-x;
+  text-align: center;
+}
 
 @media screen and (max-width: 600px){
   #toolbar{

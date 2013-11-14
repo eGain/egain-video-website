@@ -14,9 +14,11 @@
   <link href="xtyle/img/favicon.ico" rel="icon" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="xtyle/css/xtyle.min.css">
   <link rel="stylesheet" type="text/css" href="xtyle/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="xtyle/css/magnific.css">
+
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body class="white bg">
+<body>
   
   <nav id="toolbar" class="large">
     <div class="layout-fixed-center">
@@ -38,7 +40,7 @@
       <h1 class="text-shadow">Future of Customer<br>Engagement</h1>
       <small>Ashu Roy, CEO eGain</small>
       <br>
-      <a href="#" class="btn green border-radius">WATCH VIDEO</a>
+      <a href="http://www.youtube.com/watch?v=0OKsexQicYg" class="modal btn green border-radius">WATCH VIDEO</a>
       <a href="#" class="btn blue border-radius">SLIDES</a>
     </div></div>
     </div>
@@ -58,12 +60,10 @@
       <div class="grid">
         <div class="grid2">
           <div>
-            <a href="#"><img src="/xtyle/img/video_anurag.jpg" width="100%"></a>
+            <a href="http://www.youtube.com/watch?v=0UL9NCG6Qus" class="modal"><img src="/xtyle/img/video_anurag.jpg" width="100%"></a>
             <p>
-              Sam Hahn, eGain's VP of Technology, discusses 
-              some of eGain's incredible innovations like eGain's 
-              Mobile engagement app, and the exciting new 
-              features of Cobrowse.
+              From eGain World 2013, in Las Vegas. Anurag 
+Juneja's opening remarks kickoff 2013's eGain World.
             </p>
             <p>
               <a href="#">Watch Video</a>
@@ -74,7 +74,7 @@
         </div>
         <div class="grid2">
           <div>
-            <a href="#"><img src="/xtyle/img/video_sam.jpg" width="100%"></a>
+            <a href="http://www.youtube.com/watch?v=zKjEkafGXEs" class="modal"><img src="/xtyle/img/video_sam.jpg" width="100%"></a>
             <p>
               Sam Hahn, eGain's VP of Technology, discusses 
               some of eGain's incredible innovations like eGain's 
@@ -93,12 +93,12 @@
       <div class="grid">
         <div class="grid2">
           <div>
-            <a href="#"><img src="/xtyle/img/video_brian.jpg" width="100%"></a>
+            <a href="http://www.youtube.com/watch?v=R9Di0HaGxmk" class="modal"><img src="/xtyle/img/video_brian.jpg" width="100%"></a>
             <p>
-              Sam Hahn, eGain's VP of Technology, discusses 
-              some of eGain's incredible innovations like eGain's 
-              Mobile engagement app, and the exciting new 
-              features of Cobrowse.
+              Brian Eshelman, from Humana, discusses 
+Humana's goals and how they have used eGain to 
+help the reach those goals, and how they plan to 
+use eGain to help reach future goals.
             </p>
             <p>
               <a href="#">Watch Video</a>
@@ -109,12 +109,12 @@
         </div>
         <div class="grid2">
           <div>
-            <a href="#"><img src="/xtyle/img/video_arvind.jpg" width="100%"></a>
+            <a href="http://www.youtube.com/watch?v=v4Qnu0c1wQU" class="modal"><img src="/xtyle/img/video_arvind.jpg" width="100%"></a>
             <p>
-              Sam Hahn, eGain's VP of Technology, discusses 
-              some of eGain's incredible innovations like eGain's 
-              Mobile engagement app, and the exciting new 
-              features of Cobrowse.
+              Arvind Gopal, Sr. Product Manager, and David 
+Stanley-Jones, Director, Professional Services, discuss 
+the misconceptions about knowledge, and how to 
+truly understand and best use it.
             </p>
             <p>
               <a href="#">Watch Video</a>
@@ -129,9 +129,19 @@
 
   </div><!-- .layout-fixed-center -->
 
+  <footer>
+    <img src="/xtyle/img/egainlogogray.png" width="80px">
+  </footer>
+
   <!-- SCRIPTS -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="/xtyle/js/xtyle.min.js"></script>
+  <script src="/xtyle/js/magnific.js"></script>
   <script src="/xtyle/js/popcorn.min.js"></script>
+  <script>
+    $(function (){
+      $("a.modal").magnificPopup({type:'iframe'});
+    });
+  </script>
 </body>
 </html>
