@@ -1,4 +1,8 @@
 /* override */
+a {
+  text-decoration: none;
+}
+
 nav.large a, nav.large li {
   padding: 31px 15px 0px 15px;
 }
@@ -14,8 +18,8 @@ h1,h2,h3,h4,h5,h6 {
 
 #toolbar {
   background: url('/xtyle/img/topgradient.png') repeat-x;
-  background-size: 30% 30%;
-  height: 250px;
+  background-size: 100% 100%;
+  height: 100px;
 }
 
 #toolbar a{
