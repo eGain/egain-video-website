@@ -1,5 +1,83 @@
+/* override */
+nav.large a, nav.large li {
+  padding: 31px 15px 0px 15px;
+}
+
+.text-shadow {
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, .6);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Cabin Condensed';
+  color: black;
+}
+
 #toolbar {
   background: url('/xtyle/img/topgradient.png') repeat-x;
   background-size: 30% 30%;
-  height: 466px;
+  height: 250px;
+}
+
+#toolbar a{
+  font-family: 'Cabin Condensed';
+  text-decoration: none;
+  color: white;
+  opacity: .7;
+}
+#toolbar a:hover{
+  opacity: 1;
+}
+
+#banner{
+  background: url('/xtyle/img/video_ashu_banner.jpg') center no-repeat black;
+  height: 600px;
+  width: 100%;
+}
+
+#searchbox{
+  opacity: .7;
+}
+#searchbox:focus{
+  opacity: 1;
+}
+
+#banner_msg {
+  color: white;
+  padding-top: 160px;
+}
+
+#banner_msg h1{
+  color:  white;
+  font-size: 500%;
+  font-family: 'Cabin Condensed';
+}
+
+
+@media screen and (max-width: 600px){
+  #toolbar{
+    position: fixed;
+  }
+  #searchbox{
+    position: fixed;
+    right: 20px;
+    width: 150px;
+    top: -5px;
+  }
+  #banner{
+    background-position: -740px 0;
+  }
+  #banner h1{
+    font-size: 380%;
+  }
+  #banner_msg{
+    padding-top: 200px;
+  }
+  .title{
+    text-align: center;
+  }
+  #toolbar a{
+    background: black;
+    opacity: .88;
+  }
+
 }
